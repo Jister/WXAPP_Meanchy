@@ -1,0 +1,68 @@
+/**index.wxss**/
+@import "../../lib/weui.wxss";
+
+.layout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.layout_scan {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.bc_scan_info {
+  background: white; 
+  width: 550rpx;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size:60rpx;
+  font-weight:600;
+}
+.bc_award {
+  background: white; 
+  width: 550rpx;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  font-size:40rpx;
+}
+.bc_award_content {
+  background: white; 
+  display: flex;
+  justify-content: center;
+  font-size:40rpx;
+}
+.bc_info {
+  background: white; 
+  display: flex;
+  justify-content: center;
+  font-size:40rpx;
+  font-weight:600;
+}
+.bc_num {
+  background: white; 
+  width: 500rpx;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size:200rpx;
+  font-weight:700;
+}
+.bc_button {
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bc_img{
+  display: flex;
+  background: white;
+  justify-content: center;
+  align-items: center;
+}

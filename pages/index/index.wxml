@@ -1,0 +1,32 @@
+<!--index.wxml-->
+<view class="section">
+  <view class="layout" wx:if="{{scan_result}}">
+    <view>
+      <view class="bc_scan_info" wx:if="{{!init}}">长按到1秒整有惊喜</view>
+      <view class="bc_num" wx:else> {{time}}</view>
+    </view>
+    <view>
+        <image class="bc_img" mode="aspectFit" src="{{img}}"></image>
+    </view>
+    <view >
+      <button class="bc_button" type="primary" bindtouchstart="startTime" bindtouchend="endTime">按钮</button>
+    </view>
+  </view>
+  <view class="layout_scan" wx:else>
+    <view>
+      <view class="bc_scan_info">请扫一扫抽奖二维码</view>
+    </view>
+    <view>
+      <view wx:if="{{!award_flag}}">
+        <image class="bc_img" mode="aspectFit" src="{{img}}"></image>
+      </view>
+      <view class="bc_award" wx:elif="{{award_flag}}">
+        <view class="bc_info">奖品：</view>
+        <view class="bc_award_content">{{award}}</view>
+      </view>
+    </view>
+    <view >
+      <button class="bc_button" type="primary" plain="true" bindtap="scan">扫一扫</button>
+    </view>
+  </view>
+</view>
