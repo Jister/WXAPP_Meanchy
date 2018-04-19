@@ -21,8 +21,11 @@
         <image class="bc_img" mode="aspectFit" src="{{img}}"></image>
       </view>
       <view class="bc_award" wx:elif="{{award_flag}}">
-        <view class="bc_info">奖品：</view>
-        <view class="bc_award_content">{{award}}</view>
+        <view class="bc_award_content" style="flex-direction:row;" >
+          <view class="bc_info">奖品：</view>
+          <view class="bc_award_content">{{award}}</view>
+        </view>
+        <view class="bc_hint">当场兑换纸质优惠券方可使用</view>
       </view>
     </view>
     <view >

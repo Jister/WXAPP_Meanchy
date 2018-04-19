@@ -13,19 +13,20 @@
 }
 .bc_scan_info {
   background: white; 
-  width: 550rpx;
-  height: 200px;
+  width: 750rpx;
+  height: 320rpx;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size:60rpx;
-  font-weight:600;
+  font-weight:700;
 }
 .bc_award {
   background: white; 
-  width: 550rpx;
-  height: 250px;
+  width: 600rpx;
+  height: 600rpx;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   font-size:40rpx;
 }
@@ -35,17 +36,24 @@
   justify-content: center;
   font-size:40rpx;
 }
+.bc_hint {
+  background: white; 
+  display: flex;
+  justify-content: center;
+  font-size: 30rpx;
+  color: green;
+}
 .bc_info {
   background: white; 
   display: flex;
   justify-content: center;
   font-size:40rpx;
-  font-weight:600;
+  font-weight:700;
 }
 .bc_num {
   background: white; 
   width: 500rpx;
-  height: 200px;
+  height: 320rpx;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -63,6 +71,7 @@
 .bc_img{
   display: flex;
   background: white;
+  height: 270px;
   justify-content: center;
   align-items: center;
 }
